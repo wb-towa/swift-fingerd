@@ -12,6 +12,8 @@ very happy to take in suggested changes if you want to contribute.
 
 Further information on the finger spec: [Finger Protocol RFC](https://datatracker.ietf.org/doc/html/rfc1288)
 
+If you would like to get into the finger protocol, you can set up an account at [happynetbox.com](https://happynetbox.com).
+
 
 ## Building
 
