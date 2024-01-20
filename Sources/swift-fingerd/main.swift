@@ -113,7 +113,7 @@ struct Fingerd: ParsableCommand {
     @Option(name: .shortAndLong, help: "the address to run on.")
     var host: String = "::1"
 
-    @Option(name: [.customShort("d"), .customLong("user-directory")], completion: .directory, help: "the directory where user text files are stored.")
+    @Option(name: [.customShort("d"), .customLong("user-directory")], help: "the directory where user text files are stored.", completion: .directory)
     var userDirectory: String = "/tmp"
 
     mutating func run() throws {
